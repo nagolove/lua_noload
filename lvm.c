@@ -1166,7 +1166,8 @@ void luaV_execute (lua_State *L, CallInfo *ci) {
     Instruction i;  /* instruction being executed */
     StkId ra;  /* instruction's A register */
     vmfetch();
-    #if 0
+    #if 1
+      // XXX FIXME TODO
       /* low-level line tracing for debugging Lua */
       printf("line: %d\n", luaG_getfuncline(cl->p, pcRel(pc, cl->p)));
     #endif
