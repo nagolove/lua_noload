@@ -29,6 +29,14 @@ isJ                           sJ(25)                     |   Op(7)     |
 ===========================================================================*/
 
 
+/*
+XXX Что значит 
+ABC 
+ABx 
+iAsBx 
+iAx
+isJ
+*/
 enum OpMode {iABC, iABx, iAsBx, iAx, isJ};  /* basic instruction formats */
 
 
